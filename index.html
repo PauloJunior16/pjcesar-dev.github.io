@@ -5,15 +5,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Studio Alura</title>
-    <link rel="stylesheet" href="style/reset.css">
-    <link rel="stylesheet" href="style/style-home.css">
+    <link rel="shortcut icon" href="logo.png" />
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style-home.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family-Montserrat&display=swap">
 </head>
 
 <body>
     <header>
         <div class="caixa">
-            <h1><img src="img/logo-branco.png"></h1>
+            <h1><img src="logo-branco.png"></h1>
 
             <nav>
                 <ul>
@@ -31,30 +32,34 @@
             <input type="radio" name="fancy" value="2" id="2" />
             <input type="radio" name="fancy" value="3" id="3" />
             <input type="radio" name="fancy" value="4" id="4" />
-            <label for="1"><img class="img-carrosel" src="img/interior.jpg"></label>
-            <label for="2"><img class="img-carrosel" src="img/interior3.jpg"></label>
-            <label for="3"><img class="img-carrosel" src="img/interior2.jpg"></label>
-            <label for="4"><img class="img-carrosel" src="img/interior5.jpg">
+            <label for="1"><img class="img-carrosel" src="interior.jpg"></label>
+            <label for="2"><img class="img-carrosel" src="interior3.jpg"></label>
+            <label for="3"><img class="img-carrosel" src="interior2.jpg"></label>
+            <label for="4"><img class="img-carrosel" src="interior5.jpg">
         </form>
     </div>
 
     <main>
         <section class="principal">
-            <h2 class="titulo-principal"> Sobre o Studio Alura </h2>
+            <div>
+                <h2 class="titulo-principal"> Sobre o Studio Alura </h2>
 
-            <img class="utensilios" src="img/util.jpg" alt="Utensilios">
+                <img class="utensilios" src="util.jpg" alt="Utensilios">
 
-            <p> Localizada no centro da cidade o <strong> Studio Alura </strong> traz para o mercado o que há de
-                melhor das barbearias atuais mesclado com um estudio de tatuagem bem equipado. Fundada em 2019, o Studio
-                Alura já é destaque na cidade e conquista
-                novos clientes a cada dia.
-            </p>
-            <p id="missao"><em>Nossa missão é: <strong>"Proporcionar auto-estima e qualidade de vida aos nossos
-                        clientes".</strong></em>
-            </p>
-            <p class="txt-final">Oferecemos profissionais experientes e antenados às mudanças no mundo da moda. O atendimento possui
-                padrão de excelência e agilidade, garantindo qualidade e satisfação dos nossos clientes.
-            </p>
+                <p> Localizada no centro da cidade o <strong> Studio Alura </strong> traz para o mercado o que há de
+                    melhor das barbearias atuais mesclado com um estudio de tatuagem bem equipado. Fundada em 2019, o
+                    Studio
+                    Alura já é destaque na cidade e conquista
+                    novos clientes a cada dia.
+                </p>
+                <p id="missao"><em>Nossa missão é: <strong>"Proporcionar auto-estima e qualidade de vida aos nossos
+                            clientes".</strong></em>
+                </p>
+                <p class="txt-final">Oferecemos profissionais experientes e antenados às mudanças no mundo da moda. O
+                    atendimento possui
+                    padrão de excelência e agilidade, garantindo qualidade e satisfação dos nossos clientes.
+                </p>
+            </div>
         </section>
 
         <section class="beneficios">
@@ -68,7 +73,10 @@
                     <li class="itens">Profissionais Qualificados</li>
                     <li class="itens">Pontualidade</li>
                     <li class="itens">Higiene</li>
-                </ul><img src="img/beneficios.jpg" class="imagem-beneficios"><img src="img/beneficios2.jpg" class="imagem-beneficios" alt="imagem-beneficios"><img src="img/beneficios3.jpg" class="imagem-beneficios" alt="imagem-beneficios"><img src="img/beneficios4.jpg" class="imagem-beneficios" alt="imagem-beneficios">
+                </ul><img src="beneficios.jpg" class="imagem-beneficios"><img src="beneficios2.jpg"
+                    class="imagem-beneficios" alt="imagem-beneficios"><img src="beneficios3.jpg"
+                    class="imagem-beneficios" alt="imagem-beneficios" style="padding-left: 285px;"><img
+                    src="beneficios4.jpg" class="imagem-beneficios" alt="imagem-beneficios">
             </div>
 
             <div class="video">
@@ -93,7 +101,31 @@
     </main>
 
     <footer>
-        <img src="img/logo-branco.png" alt="Logo da Barbearia Alura">
+        <img src="logo-branco.png" alt="Logo da Barbearia Alura">
+
+        <table class="horaFunc">
+            <thead>
+                <tr class="redir"><th colspan="2"><a href="contato.html"> Clique aqui para agendar seu horário!</a></th> </tr>
+                <tr>
+                    <th colspan="2">Horários de funcionamento</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Segunda</td>
+                    <td>10h as 20h</td>
+                </tr>
+                <tr>
+                    <td>Quarta</td>
+                    <td>8h as 20h</td>
+                </tr>
+                <tr>
+                    <td>Sexta</td>
+                    <td>8h as 20h</td>
+                </tr>
+            </tbody>
+        </table>
+
         <p class="copyright">&copy; Copyright Barbearia Alura - 2020</p>
     </footer>
 

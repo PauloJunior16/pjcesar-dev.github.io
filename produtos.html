@@ -5,15 +5,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Produtos - Barbearia Alura </title>
-    <link rel="stylesheet" href="style/reset.css">
-    <link rel="stylesheet" href="style/produtos.css">
+    <link rel="shortcut icon" href="logo.png" />
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="produtos.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family-Montserrat&display=swap">
 </head>
 
 <body>
     <header>
         <div class="caixa">
-            <h1><img src="img/logo.png"></h1>
+            <h1><img src="logo-branco.png"></h1>
 
             <nav>
                 <ul>
@@ -29,17 +30,17 @@
         <ul class="produtos">
             <li>
                 <h2>Cabelo</h2>
-                <img src="img/cabelo.jpg">
+                <img src="cabelo.jpg">
                 <p class="produto-descricao">Na tesoura ou na maquina, como o cliente preferir</p>
             </li>
             <li>
                 <h2>Barba</h2>
-                <img src="img/barba.jpg">
+                <img src="barba.jpg">
                 <p class="produto-descricao">Corte e desenho profissional de barba</p>
             </li>
             <li>
                 <h2>Cabelo + Barba</h2>
-                <img src="img/cabelo+barba.jpg">
+                <img src="cabelo+barba.jpg">
                 <p class="produto-descricao">Pacote completo de cabelo e barba</p>
             </li>
         </ul>
@@ -55,10 +56,10 @@
                         <input type="radio" name="fancy" value="2" id="2" />
                         <input type="radio" name="fancy" value="3" id="3" />
                         <input type="radio" name="fancy" value="4" id="4" />
-                        <label for="1"><img class="img-carrosel" src="img/port1.jpg"></label>
-                        <label for="2"><img class="img-carrosel" src="img/port2.jpg"></label>
-                        <label for="3"><img class="img-carrosel" src="img/port3.jpg"></label>
-                        <label for="4"><img class="img-carrosel" src="img/port6.jpg">
+                        <label for="1"><img class="img-carrosel" src="port1.jpg"></label>
+                        <label for="2"><img class="img-carrosel" src="port2.jpg"></label>
+                        <label for="3"><img class="img-carrosel" src="port3.jpg"></label>
+                        <label for="4"><img class="img-carrosel" src="port6.jpg">
                     </form>
                 </div>
             </li>
@@ -67,7 +68,31 @@
     </main>
 
     <footer>
-        <img src="img/logo-branco.png">
+        <img src="logo-branco.png">
+
+        <table class="horaFunc">
+            <thead>
+                <tr>
+                    <tr class="redir"><th colspan="2"><a href="contato.html"> Clique aqui para agendar seu horário!</a></th> </tr>
+                    <th colspan="2">Horários de funcionamento</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Segunda</td>
+                    <td>10h as 20h</td>
+                </tr>
+                <tr>
+                    <td>Quarta</td>
+                    <td>8h as 20h</td>
+                </tr>
+                <tr>
+                    <td>Sexta</td>
+                    <td>8h as 20h</td>
+                </tr>
+            </tbody>
+        </table>
+
         <p class="copyright">&copy; Copyright Barbearia Alura - 2020</p>
     </footer>
 </body>

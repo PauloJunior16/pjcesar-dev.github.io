@@ -8,7 +8,7 @@ header {
 
 header:after {
     content: "";
-    background: #CCCCCC;
+    background: #111111;
     top: 0;
     left: 0;
     bottom: 0;
@@ -36,7 +36,7 @@ nav li {
 
 nav a {
     text-transform: uppercase;
-    color: #000000;
+    color: #FFFFFF;
     font-weight: bold;
     font-size: 22px;
     text-decoration: none;
@@ -47,6 +47,9 @@ nav a:hover {
     text-decoration: underline;
 }
 
+main {
+    background: linear-gradient(#111111,#222222, #333333, #111111) ;
+}
 .produtos {
     width: 940px;
     margin: 0 auto;
@@ -54,6 +57,7 @@ nav a:hover {
 }
 
 .produtos li {
+    background: #FFFFFF;
     display: inline-block;
     text-align: center;
     width: 30%;
@@ -100,6 +104,8 @@ nav a:hover {
 }
 
 .produtos2 li {
+    background: url(bg.jpg);
+    color: #FFFFFF;
     display: inline-block;
     text-align: center;
     width: 96%;
@@ -126,7 +132,6 @@ nav a:hover {
     padding-bottom: 10px;
 }
 
-/*--carrosel--*/
 .banner {
     width: 100%;
     display: flex;
@@ -162,7 +167,6 @@ nav a:hover {
 .banner input {
 	position: absolute;
 }
-
 
 .banner input:nth-of-type(1):checked ~ label:nth-of-type(1), 
 .banner input:nth-of-type(2):checked ~ label:nth-of-type(2),
@@ -228,16 +232,9 @@ nav a:hover {
 	border-bottom-right-radius: 50%;
 }
 
-
-
-
-
-/*--------------------*/
-
-
 footer {
     text-align: center;
-    background: url(img/bg.jpg);
+    background: url(bg.jpg);
     padding: 40px 0;
 }
 
@@ -245,5 +242,32 @@ footer {
     color: #FFFFFF;
     font-size: 13px;
     margin-top: 20px;
+}
+
+.horaFunc {
+    display: inline-block;
+    margin: 20px 40px;
+}
+
+.redir a{
+    text-decoration: none;
+    color: yellow;
+}
+
+.redir a:hover{
+    color: #C78C19;
+}
+
+thead {
+    background: #555555;
+    color: white;
+    font-weight: bold;
+}
+
+td,th {
+    background: #333333;
+    color: white;
+    border: 1px solid #000000;
+    padding: 8px 15px;
 }
 

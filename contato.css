@@ -1,5 +1,6 @@
 body {
     font-family: 'Montserrat', sans-serif;
+    background: linear-gradient(#111111, #333333, #222222, #111111);
 }
 
 header {
@@ -8,8 +9,6 @@ header {
 
 header:after {
     content: "";
-    background-image: url(img/vetor.jpg);
-    opacity: 0.3;
     top: 0;
     left: 0;
     bottom: 0;
@@ -37,7 +36,7 @@ nav li {
 
 nav a {
     text-transform: uppercase;
-    color: #000000;
+    color: #FFFFFF;
     font-weight: bold;
     font-size: 22px;
     text-decoration: none;
@@ -53,8 +52,18 @@ main {
     margin: 0 auto;
 }
 
+main h2{
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
 form {
-    margin: 40px 0;
+    background: #CCCCCC;
+    width: 56%;
+    border: 3px dashed Grey;
+    border-radius: 15px;
+    margin: 40px 100px;
+    padding: 2em;
 }
 
 form label, form legend {
@@ -85,14 +94,28 @@ form label, form legend {
     border-radius: 5px;
     transition: all .3s ease-in-out;
     cursor: pointer;
+    margin-left: 150px;
 }
 
 .enviar:hover {
-    background: rgb(255, 50, 0);
+    background: rgb(230, 30, 30);
     transform: scale(1.2);
 }
 
-table {
+footer {
+    text-align: center;
+    background: url(bg.jpg);
+    padding: 40px 0;
+}
+
+.copyright {
+    color: #FFFFFF;
+    font-size: 13px;
+    margin-top: 20px;
+}
+
+.horaFunc {
+    display: inline-block;
     margin: 20px 40px;
 }
 
@@ -101,20 +124,10 @@ thead {
     color: white;
     font-weight: bold;
 }
+
 td,th {
+    background: #333333;
+    color: white;
     border: 1px solid #000000;
     padding: 8px 15px;
-}
-
-
-footer {
-    text-align: center;
-    background: url(img/bg.jpg);
-    padding: 40px 0;
-}
-
-.copyright {
-    color: #FFFFFF;
-    font-size: 13px;
-    margin-top: 20px;
 }
